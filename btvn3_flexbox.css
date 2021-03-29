@@ -1,0 +1,171 @@
+.container{
+    background: white;
+    display: flex;
+    max-width: 960px;
+    max-height: 1000px;
+    margin: 0px;
+    padding: 100px;
+    
+}
+.item{
+ width: 900px;
+ margin: 10px;
+ flex-grow: 0px;
+ 
+}
+.item1{
+    background-color: white;
+    height: 800px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+}
+.atem1{
+    background-color: tomato;
+    height: 100px;
+    width: 150px;
+}
+.chèn1{
+    background-color: white;
+    width: 150px;
+    height: 20px;
+}
+.atem2{
+    background-color: teal;
+    width: 150px;
+    height: 30px;
+}
+.atem3{
+    background-color: skyblue;
+    width: 150px;
+    height: 20px;
+}
+.atem4 {
+    background-color: teal;
+    width: 150px;
+    height: 30px;
+}
+.atem5{
+    background-color: skyblue;
+    width: 150px;
+    height: 20px;
+}
+.atem6{
+    background-color: teal;
+    width: 150px;
+    height: 30px;
+}
+.atem7{
+    background-color: skyblue;
+    width: 150px;
+    height: 20px;
+}
+.atem8{
+    background-color: teal;
+    width: 150px;
+    height: 30px;
+}
+.atem9{
+    background-color: skyblue;
+    width: 150px;
+    height: 20px;
+}
+.cách1{
+    background-color:white;
+    height: 40px;
+    width: 150px;
+}
+.atem10{
+    background-color: whitesmoke;
+    width: 150px;
+    height: 160px;
+}
+.cách2{
+    background-color: white;
+    width: 150px;
+    height: 15px;
+}
+.atem11{
+    background-color: whitesmoke;
+    width: 150px;
+    height: 160px;
+}
+.item2{
+    background-color: white;
+    height: 780px;
+    width: 850px;
+    display: flex;
+    flex-direction: column;
+}
+.btem1{
+    background-color: mediumspringgreen;
+    width: 800px;
+    height: 450px;
+    display: flex;
+    flex-grow: 1;
+    align-items: flex-end;
+    
+}
+.btem2{
+   background-color: seagreen;
+    height: 50px;
+    width: 300px;
+    margin: 1px;
+}
+.chèn2{
+    background-color: white;
+    width: 800px;
+    height: 20px;
+}
+.btem3{
+    background-color: black;
+    width: 800px;
+    height: 40px;
+    display: flex;
+}
+.ctem1{
+    background-color: lightblue;
+    height: 40px;
+    width: 450px;
+}
+.ctem2{
+    background-color: tomato;
+    height: 40px;
+    width: 350px;
+}
+.chèn3{
+    background-color:white;
+    width: 800px;
+    height: 20px;
+}
+.btem4{
+    background-color: white;
+    height: 100px;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+.ctem3{
+    background-color: yellowgreen;
+    height: 100px;
+    width: 190px;
+}
+.chèn4{
+    background-color:white;
+    height: 10px;
+    width: 800px;
+}
+.btem5{
+    background-color: white;
+    width: 800px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.ctem4{
+    background-color: lightcoral;
+    width: 190px;
+    height: 200px;
+}
+
+    

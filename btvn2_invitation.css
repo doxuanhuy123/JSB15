@@ -1,0 +1,17 @@
+body{
+    background-image: url("https://images.pexels.com/photos/5922572/pexels-photo-5922572.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+    background-repeat: repeat-y;
+    background-size: 500px;
+    background-position-x: center;
+    
+}
+h1,h3,h4,p{
+    text-align: center;
+    font: 1em sans-serif;
+}
+h1{
+    font-size: 45px;
+    }
+h4{
+    font-size: 15px;
+}
