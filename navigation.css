@@ -1,0 +1,214 @@
+.container{
+    background: linear-gradient(to right, #f7e6ff 50%, white 50% );
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    height: 500px;
+     
+    flex-grow: 0px;
+    text-align: center;
+}
+.header{
+    display: flex;
+}
+.item{    
+    display: flex;
+    flex-grow: 0px;
+}
+.item1{ 
+    width: 600px;
+    text-align: left;
+}
+.item2{
+    width: 600px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+     font-size: 15px;
+}
+h5{
+    color: blue;
+}
+img{
+    width: 600px;
+}
+h1{
+    font-size: 45px;
+}
+.atem3{
+    text-align: center;
+}
+.container1{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+.item3{
+    width: 350px;
+}
+h4{
+    color:  #c2c2d6 ;
+    font-size: 17px;
+}
+.left{
+    float: left;
+    color: ;
+}
+.right{
+    float: right;
+    text-align: left;
+    width: 150px;
+    color: #c2c2d6;
+}
+button{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    border: 0px;
+    border-radius: 25px;
+    margin: 20px;
+}
+.container2{
+    display: flex;
+    width: 1200px;
+    flex-wrap: wrap;
+}
+.item4{
+    width: 600px;
+    float: left;
+    text-align: ;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.item5{
+    width: 270px;
+    background-color: white;
+}
+h2{
+    color: black;
+}
+.hoa{
+    font-size: 30px;
+    color: blue;
+}
+.den{
+    color: black;
+}
+.container3{
+    width: 1200px;
+    height: 300px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.container4{
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+}
+.container5{
+    text-align: center;
+}
+.container6{
+    width: 1200px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    color: white;
+    border-radius: 40px;
+    border: 10px;
+}
+.vịtrí{
+    height: 230px;
+    width: 250px;
+    text-align: center;
+    border: 2px solid whitesmoke;
+}
+.sdt{
+    height: 230px;
+    width: 250px;
+    text-align: center;
+    border: 2px solid whitesmoke;
+}
+.email{
+    height: 230px;
+    width: 250px;
+    text-align: center;
+    border: 2px solid whitesmoke;
+}
+.git{
+    height: 230px;
+    width: 250px;
+    text-align: center;
+    border: 2px solid whitesmoke;
+}
+.container7{
+    width: 1200px;
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+}
+.item6{
+    height: 700px;
+    width: 500px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+}
+button.info{
+    background-color: white;
+    color: #c2c2d6;
+    text-align: left;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 15px;    
+}
+button.imfo{
+    background-color: white;
+    color: #c2c2d6;
+    text-align: left;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 15px;
+    height: 200px;    
+    display: flex;
+    justify-content: flex-start;
+}
+button.END{
+    width: 250px;
+}
+.container8{
+    width: 1200px;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.about{
+    width: 300px;
+    height: 200px;
+    color: white;
+}
+.link{
+    width: 300px;
+    height: 200px;
+    color: white;
+    content: "\2192";
+}
+.Have{
+    width: 300px;
+    height: 200px;
+    color: white;
+}
+h6{
+    font-size: 20px;
+}
+button.git{
+    color: white;
+    background-color: black;
+}
+
