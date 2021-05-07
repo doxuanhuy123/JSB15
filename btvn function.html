@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="bài tập.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Hello!</h1>
+        <h1>Signup to</h1>
+        <h1>Get started</h1>
+        <img src="https://upanh123.com/wp-content/uploads/2019/07/avatar-dep-tong-hop-hinh-anh-dai-dien-facebook-doc-va-y-nghia-17.jpg" alt="">
+        <br>
+        <input placeholder="Name" id="name" >
+        <br>
+        <input placeholder="Email address" id="email">
+        <br>
+        <input placeholder="Password" id="pass">
+        <br>
+        <button onclick="myFunction()">Signup</button>
+    </div>
+    <p id="demo"></p>
+    <p id="dimo"></p>
+    <p id="damo"></p>
+    <script>
+        function myFunction() {
+          let a = document.getElementById("name").value;document.getElementById("demo").innerHTML = a; 
+          let b = document.getElementById("email").value;document.getElementById("dimo").innerHTML = b; 
+          let c = document.getElementById("pass").value;document.getElementById("damo").innerHTML = c;
+          if(a==''){
+              alert("bạn chưa điền thông tin");
+              submitOK = "false";
+          }
+          if(b==''){
+            alert("bạn chưa điền thông tin");
+              submitOK = "false";
+          }
+          if(c==''){
+            alert("bạn chưa điền thông tin");
+              submitOK = "false";
+          }
+          if (submitOK == "false") {
+            return false;
+          }
+          console.log("your user name"+a)
+          console.log("email"+b)
+          console.log("pass"+c)
+        }
+        </script>
+    
+
+
+    
+</body>
+</html>
