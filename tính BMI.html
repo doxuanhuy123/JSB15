@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>BMI Calculator</h1>
+    <h2>Height</h2>
+    <input type="text" id="hei">
+    <h2>Weight</h2>
+    <input type="text" id="wei">
+    <br>
+    <br>
+    <button onclick="myfunction()">Calculator</button>
+    <p id="demo"></p>
+    <p id="dimo"></p>
+    <p id="damo"></p>
+    <script>
+        function myfunction() {
+            let a=document.getElementById("hei").value;
+            let b=document.getElementById("wei").value;
+            let bmi= b/(a*a);
+            if (18.5 <= bmi && bmi<23) {
+                document.getElementById("dimo").innerHTML = "sức khỏe bình thường";
+            } else  {
+                document.getElementById("damo").innerHTML = "sức khỏe bất thường";
+            }
+            console.log("your BMI"+bmi);document.getElementById("demo").innerHTML = bmi;
+        }
+    </script>
+</body>
+</html>
