@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="btvn9.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>CHỈ SỐ BMR</h1>
+        <h2>Sử dụng công cụ tính chỉ số BMR có thể giúp bạn xác định nhu 
+            cầu calo hàng ngày dựa trên chiều cao, cân nặng, tuổi 
+            và mức độ hoạt động của bạn.
+        </h2>
+    </div>
+    <div>
+        <img src="https://dbk.vn/uploads/ckfinder/images/tranh-anh/anh-anime-nam-16.jpg"> 
+        <img src="https://img.wattpad.com/fb5bdc0698e83367a900ae07b828eb2ae89d7762/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f4c693130614a72694e664d445f673d3d2d3538343836333139322e313533353432633337323530653730623435383136353633363934302e6a7067" >
+    </div>
+    <div class="container1">
+        <div><input id="anh1" name="ảnh1" type="radio" value="nam">Male</div>
+        <div><input id="anh2" name="ảnh2" type="radio" value="nu">Female</div>
+    </div>
+    <h2>Chiều cao<input type="text" id="hei"></h2>
+    <h2>Cân Nặng <input type="text" id="wei"></h2>
+    <h2>tuổi <input type="text" id="year"></h2>
+    <button onclick="myfunction()"> Calculate</button>
+    <p id="demo"></p>
+    <p id="dimo"></p>
+
+    <script>
+        function myfunction() {
+            let a =document.getElementById("hei").value;
+            let b =document.getElementById("wei").value;
+            let c =document.getElementById("year").value;
+            var d =document.getElementById("anh1").value;
+            var e =document.getElementById("anh2").value;
+            let bmrnam = 66+ (13.7 * b)+(5 * a)-(6.8 * c);
+            let bmrnu = 655+ (9.6 * b)+(1.8 * a)-(4.7 * c);
+            if(d) {
+                
+                document.getElementById("demo").innerHTML = "bmr của bạn là:"+bmrnam;
+            }
+            else if(e) {
+                
+                document.getElementById("dimo").innerHTML = "bmr của bạn là:"+bmrnu;
+            }
+        }
+    </script>
+</body>
+</html>
