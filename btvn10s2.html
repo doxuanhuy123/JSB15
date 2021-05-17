@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <select name="" id="colors" onclick="myfunction();">
+        <option>Select</option>
+        <option  style="background-color: red;">#ff3300</option>
+        <option style="background-color: yellow;">#ffff00</option>
+        <option style="background-color: blue;">#0040ff</option>
+        <option style="background-color: green;">#009900</option>
+        <option style="background-color: pink;">#ffccff</option>
+    </select>
+    <script>
+    function myfunction() {
+    let d = document.getElementById("colors");
+    let text = d.options[d.selectedIndex].value;
+    document.body.style.backgroundColor=text;
+    }
+    </script>
+</body>
+</html>
