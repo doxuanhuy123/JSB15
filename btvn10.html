@@ -10,6 +10,14 @@
     <h3>Nhập mã màu vào đây <input type="text" id="color"></h3>
     <button onclick="myfunction()">Change color</button>
     <p id="demo"></p>
+    <br>
+    <select name="" id="colors" onclick="myfunction();">
+        <option>Select</option>
+        <option  style="background-color: red;">#ff3300</option>
+        <option style="background-color: yellow;">#ffff00</option>
+        <option style="background-color: blue;">#0040ff</option>
+        <option style="background-color: green;">#009900</option>
+        <option style="background-color: pink;">#ffccff</option>
 
     <script>
         document.getElementById('button').addEventListener("click",button)
@@ -22,6 +30,12 @@
               submitOK = "false";
           }
         }
+
+        function myfunction() {
+    let d = document.getElementById("colors");
+    let text = d.options[d.selectedIndex].value;
+    document.body.style.backgroundColor=text;
+    }
     </script>
 </body>
 </html>
