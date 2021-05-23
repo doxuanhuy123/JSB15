@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    width: 180px;
+    height: 300px;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: space-around;background-color: black;
+
+}
+button{
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+}
+.item{
+    width: 80px;
+    color: white;
+    background-color: #a3a3c2;
+}
+.atem{
+    background-color: orange;
+    color: white;
+}
+.item1{
+    color: white;
+    background-color: #a3a3c2;
+}
